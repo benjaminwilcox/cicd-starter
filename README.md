@@ -25,15 +25,15 @@ go build -o notely && ./notely
 You do *not* need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
 
 ## Re-cap of the course
-You set up a continuous integration pipeline with GitHub Actions that ensures new PRs pass certain checks before they are merged to main:
+Set up a continuous integration pipeline with GitHub Actions that ensures new PRs pass certain checks before they are merged to main:
  - Unit tests pass
  - Formatting checks pass
  - Linting checks pass
  - Security checks pass
 
-You configured a cloud-based SQLite database hosted on Turso
+Configured a cloud-based SQLite database hosted on Turso
 
-You set up a continuous deployment pipeline with GitHub Actions that does the following whenever changes are merged into main:
+Set up a continuous deployment pipeline with GitHub Actions that does the following whenever changes are merged into main:
  - Builds a new server binary
  - Builds a new Docker image for the server
  - Pushes the Docker image to the Google Artifact Registry
